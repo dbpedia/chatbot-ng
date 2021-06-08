@@ -4,7 +4,7 @@ This repository will provide the implementation of the project proposed using th
 
 The project is carried out by [Jayesh Desai](@jayeshdesai4520). 
 
-The project supeSupervision and support is done by:
+The project Supervision and support is done by:
 
 * [Andreas Both](https://github.com/anbo-de)
 * [Alexander Perevalov](https://github.com/Perevalov)
