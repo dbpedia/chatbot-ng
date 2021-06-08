@@ -1,0 +1,28 @@
+[
+  {
+    "id": "c783f2e0-2d2e-457d-8504-b98bd4d1e29e",
+    "data": [
+      {
+        "text": "dbpedia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7c10f1c3-7c1f-4289-9ef6-0dd67c7613c9",
+    "data": [
+      {
+        "text": "what is dbpedia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
