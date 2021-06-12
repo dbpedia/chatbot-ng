@@ -35,7 +35,7 @@
   },
   "defaultTimezone": "Asia/Almaty",
   "webhook": {
-    "url": "https://dashboard.heroku.com/apps/dialogflowapi1/activity/builds/5b384173-2bed-4373-9074-3f6c571ca04a",
+    "url": "https://1505f5d60de4.ngrok.io/webhook",
     "username": "",
     "headers": {},
     "available": true,

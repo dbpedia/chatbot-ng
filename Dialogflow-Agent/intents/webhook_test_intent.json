@@ -1,12 +1,12 @@
 {
-  "id": "ca678252-1c76-4a32-88e7-80b6f0a2a6e4",
-  "name": "Default Welcome Intent",
+  "id": "c377e1d2-0eaf-4084-bdde-158d981d2c2f",
+  "name": "webhook_test_intent",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -15,12 +15,6 @@
           "title": "",
           "textToSpeech": "",
           "lang": "en",
-          "speech": [
-            "Hi! I am the DBpedia bot, How are you doing?",
-            "Hello! I am the DBpedia bot,  How can I help you?",
-            "Greetings! I am the DBpedia bot,  How can I assist?",
-            "Good day! I am the DBpedia bot,  What can I do for you today?"
-          ],
           "condition": ""
         }
       ],
@@ -28,14 +22,10 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "WELCOME"
-    }
-  ],
+  "events": [],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []
