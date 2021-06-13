@@ -1,0 +1,9 @@
+{
+  "id": "c445a0c3-61cf-4a02-83e1-4dfc7e7f9c96",
+  "name": "componententity",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": true
+}

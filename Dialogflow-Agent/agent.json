@@ -35,7 +35,7 @@
   },
   "defaultTimezone": "Asia/Almaty",
   "webhook": {
-    "url": "https://1505f5d60de4.ngrok.io/webhook",
+    "url": "https://23b32156866e.ngrok.io/webhook",
     "username": "",
     "headers": {},
     "available": true,

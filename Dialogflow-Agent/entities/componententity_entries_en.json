@@ -1,0 +1,351 @@
+[
+  {
+    "value": "ASR-Kaldi",
+    "synonyms": [
+      "asr kaldi"
+    ]
+  },
+  {
+    "value": "AmbiverseNER",
+    "synonyms": [
+      "ambiverse ner"
+    ]
+  },
+  {
+    "value": "AmbiverseNed",
+    "synonyms": [
+      "ambiverse ned"
+    ]
+  },
+  {
+    "value": "AnnotationofSpotClass",
+    "synonyms": [
+      "Annotation of Spot Class",
+      "spot class Annotation "
+    ]
+  },
+  {
+    "value": "AnnotationofSpotProperty",
+    "synonyms": [
+      "Annotation of Spot Property",
+      "spot property Annotation"
+    ]
+  },
+  {
+    "value": "AnswerTypeClassifier",
+    "synonyms": [
+      "Answer Type Classifier"
+    ]
+  },
+  {
+    "value": "AylienNED",
+    "synonyms": [
+      "Aylien NED"
+    ]
+  },
+  {
+    "value": "AylienNER",
+    "synonyms": [
+      "Aylien NER"
+    ]
+  },
+  {
+    "value": "Babelfy",
+    "synonyms": [
+      "Babelfy"
+    ]
+  },
+  {
+    "value": "BabelfyNED",
+    "synonyms": [
+      "Babelfy NED"
+    ]
+  },
+  {
+    "value": "BirthDataQueryBuilder",
+    "synonyms": [
+      "Birth Data QueryBuilder",
+      "QueryBuilder Birth Data"
+    ]
+  },
+  {
+    "value": "ClsNliodCls",
+    "synonyms": [
+      "ClsNliodCls"
+    ]
+  },
+  {
+    "value": "ComicCharacterNameSimpleNamedEntityRecognizer",
+    "synonyms": [
+      "Comic Character Name SimpleNamed EntityRecognizer",
+      "Comic Character Name EntityRecognizer"
+    ]
+  },
+  {
+    "value": "Dandelion",
+    "synonyms": [
+      "Dandelion"
+    ]
+  },
+  {
+    "value": "DandelionNED",
+    "synonyms": [
+      "Dandelion NED"
+    ]
+  },
+  {
+    "value": "DiambiguationClass",
+    "synonyms": [
+      "Diambiguation Class"
+    ]
+  },
+  {
+    "value": "EAT-Classifier",
+    "synonyms": [
+      "EAT Classifier"
+    ]
+  },
+  {
+    "value": "EntityClassifier",
+    "synonyms": [
+      "Entity Classifier"
+    ]
+  },
+  {
+    "value": "EntityClassifier2",
+    "synonyms": [
+      "Entity Classifier 2",
+      "Entity Classifier two"
+    ]
+  },
+  {
+    "value": "LD-Shuyo",
+    "synonyms": [
+      "LD Shuyo"
+    ]
+  },
+  {
+    "value": "MeaningCloud",
+    "synonyms": [
+      "Meaning Cloud"
+    ]
+  },
+  {
+    "value": "MeaningCloudNed",
+    "synonyms": [
+      "Meaning Cloud Ned"
+    ]
+  },
+  {
+    "value": "Monolitic",
+    "synonyms": [
+      "Monolitic"
+    ]
+  },
+  {
+    "value": "NED-AGDISTIS",
+    "synonyms": [
+      "NED AGDISTIS",
+      "AGDISTIS NED "
+    ]
+  },
+  {
+    "value": "NED-DBpediaSpotlight",
+    "synonyms": [
+      "NED DBpediaSpotlight",
+      "DBpediaSpotlight NED"
+    ]
+  },
+  {
+    "value": "NER-DBpediaSpotlight",
+    "synonyms": [
+      "NER DBpediaSpotlight",
+      "DBpediaSpotlight NER"
+    ]
+  },
+  {
+    "value": "NER-FOX",
+    "synonyms": [
+      "NER FOX",
+      "fox ner",
+      "FOX NER "
+    ]
+  },
+  {
+    "value": "NERD-Alchemy",
+    "synonyms": [
+      "NERD Alchemy",
+      "Alchemy NERD "
+    ]
+  },
+  {
+    "value": "NERD-LuceneLinker",
+    "synonyms": [
+      "NERD LuceneLinker",
+      "LuceneLinker NERD "
+    ]
+  },
+  {
+    "value": "OntoTextNED",
+    "synonyms": [
+      "OntoText NED",
+      "NED OntoText"
+    ]
+  },
+  {
+    "value": "OntoTextNER",
+    "synonyms": [
+      "OntoText NER",
+      "NER OntoText "
+    ]
+  },
+  {
+    "value": "OpenTapiocaNED",
+    "synonyms": [
+      "OpenTapioca NED",
+      "NED OpenTapioca "
+    ]
+  },
+  {
+    "value": "QAnswerQueryBuilderAndExecutor",
+    "synonyms": [
+      "QAnswer Query Builder And Executor"
+    ]
+  },
+  {
+    "value": "QueryBuilder",
+    "synonyms": [
+      "Query Builder"
+    ]
+  },
+  {
+    "value": "QueryBuilderSimpleRealNameOfSuperHero",
+    "synonyms": [
+      "Query Builder Simple Real Name Of SuperHero",
+      "Real Name Of SuperHero Query Builder "
+    ]
+  },
+  {
+    "value": "RelNliodRel",
+    "synonyms": [
+      "RelNliodRel"
+    ]
+  },
+  {
+    "value": "RelationLinker1",
+    "synonyms": [
+      "Relation Linker 1",
+      "Relation Linker one"
+    ]
+  },
+  {
+    "value": "RelationLinker2",
+    "synonyms": [
+      "Relation Linker 2",
+      "Relation Linker two"
+    ]
+  },
+  {
+    "value": "SINA",
+    "synonyms": [
+      "SINA"
+    ]
+  },
+  {
+    "value": "SparqlExecuter",
+    "synonyms": [
+      "sparql executer"
+    ]
+  },
+  {
+    "value": "TagmeNED",
+    "synonyms": [
+      "Tagme NED"
+    ]
+  },
+  {
+    "value": "NED Tagme",
+    "synonyms": [
+      "NED Tagme"
+    ]
+  },
+  {
+    "value": "TagmeNER",
+    "synonyms": [
+      "Tagme NER",
+      "NER Tagme"
+    ]
+  },
+  {
+    "value": "TextRazor",
+    "synonyms": [
+      "Text Razor"
+    ]
+  },
+  {
+    "value": "WikidataQueryExecuter",
+    "synonyms": [
+      "Wikidata Query Executer"
+    ]
+  },
+  {
+    "value": "coronabot-answer-generation",
+    "synonyms": [
+      "coronabot answer generation"
+    ]
+  },
+  {
+    "value": "coronabot-data-acquisition",
+    "synonyms": [
+      "coronabot data acquisition"
+    ]
+  },
+  {
+    "value": "coronabot-dialog-flow",
+    "synonyms": [
+      "coronabot dialogflow"
+    ]
+  },
+  {
+    "value": "coronabot-missing-information",
+    "synonyms": [
+      "coronabot missing information"
+    ]
+  },
+  {
+    "value": "coronabot-named-entity-recognition-location-en",
+    "synonyms": [
+      "coronabot named entity recognition location en"
+    ]
+  },
+  {
+    "value": "coronabot-named-entity-recognition-time-en",
+    "synonyms": [
+      "coronabot named entity recognition time en"
+    ]
+  },
+  {
+    "value": "coronabot-named-entity-recognition-location-de",
+    "synonyms": [
+      "coronabot named entity recognition location de"
+    ]
+  },
+  {
+    "value": "coronabot-named-entity-recognition-time-de",
+    "synonyms": [
+      "coronabot named entity recognition time de"
+    ]
+  },
+  {
+    "value": "coronabot-query-generation",
+    "synonyms": [
+      "coronabot query generation"
+    ]
+  },
+  {
+    "value": "coronabot-question-classification",
+    "synonyms": [
+      "coronabot question classification"
+    ]
+  }
+]

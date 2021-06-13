@@ -1,6 +1,6 @@
 {
   "id": "b2c34f0f-a6cf-4c5f-a474-adc6637a3e02",
-  "name": "dbpedia",
+  "name": "DBpedia_Info",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -54,17 +54,17 @@
                           "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
                         }
                       },
-                      "text": "Learn More",
-                      "link": "https://www.dbpedia.org/about/"
+                      "link": "https://www.dbpedia.org/about/",
+                      "text": "Learn More"
                     },
                     {
                       "text": "Getting Started",
+                      "link": "https://www.dbpedia.org/",
                       "image": {
                         "src": {
                           "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
                         }
-                      },
-                      "link": "https://www.dbpedia.org/"
+                      }
                     }
                   ],
                   "type": "chips"

@@ -1,6 +1,6 @@
 {
-  "id": "c377e1d2-0eaf-4084-bdde-158d981d2c2f",
-  "name": "webhook_test_intent",
+  "id": "abacee3f-28f3-45f1-a86a-4c5ffe27ef6d",
+  "name": "Activate_component_intent",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -10,11 +10,11 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "e5d42683-3c1f-4b48-9cd7-92aaf4ed85aa",
-          "name": "city",
+          "id": "4952bb5c-69c1-42ca-be92-d620a590fde9",
+          "name": "activatecomponent",
           "required": false,
-          "dataType": "@sys.geo-city",
-          "value": "$city",
+          "dataType": "@sys.any",
+          "value": "$activatecomponent",
           "defaultValue": "",
           "isList": false,
           "prompts": [],

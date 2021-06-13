@@ -1,6 +1,6 @@
 {
   "id": "f68ee1d1-8787-4fb8-8706-1552070f3ddd",
-  "name": "contribute",
+  "name": "DBpedia_Contribute",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -27,24 +27,25 @@
             "richContent": [
               [
                 {
+                  "type": "chips",
                   "options": [
                     {
-                      "text": "Get Involved",
                       "image": {
                         "src": {
                           "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
                         }
                       },
+                      "text": "Get Involved",
                       "link": "https://www.dbpedia.org/community/improve/"
                     },
                     {
                       "text": "Mailing List",
+                      "link": "https://sourceforge.net/projects/dbpedia/lists/dbpedia-discussion",
                       "image": {
                         "src": {
                           "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
                         }
-                      },
-                      "link": "https://sourceforge.net/projects/dbpedia/lists/dbpedia-discussion"
+                      }
                     },
                     {
                       "image": {
@@ -55,8 +56,7 @@
                       "link": "https://dbpedia.slack.com/",
                       "text": "Slack"
                     }
-                  ],
-                  "type": "chips"
+                  ]
                 }
               ]
             ]
