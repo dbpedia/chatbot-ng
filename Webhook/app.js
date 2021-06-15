@@ -51,7 +51,7 @@ function weatherIntent(agent){
 }
 
 
-// adding info soon in comments 
+//  
 
 function active_components_Intent(agent){ 
     if (activecomponents.length === 0){
@@ -87,6 +87,6 @@ function Activate_component_intent(agent){
 /**
 * now listing the server on port number 3000 :)
 * */
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("Server is Running on port 3000")
 })
