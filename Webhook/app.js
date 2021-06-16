@@ -4,7 +4,7 @@ const {WebhookClient} = require('dialogflow-fulfillment')
 const app = express()
 app.use(express.json())
 app.get('/', (req, res) => {
-    res.send("Server Is Working......")
+    res.send("ok Server Is Working......")
 })
 /**
 * on this route dialogflow send the webhook request
@@ -17,7 +17,7 @@ app.post('/webhook', (req, res) => {
     let intentMap = new Map();
     // add intent map 2nd parameter pass function
     intentMap.set('webhook_test_intent',weatherIntent)
-    intentMap.set('show_active_component_list',active_components_Intent)
+    intentMap.set('show_component_list',active_components_Intent)
     intentMap.set('reset_list_of_components',reset_components_list_Intent)
     intentMap.set('Deactivate_component_intent',Deactivate_component_intent)
     intentMap.set('Activate_component_intent',Activate_component_intent)
@@ -25,7 +25,7 @@ app.post('/webhook', (req, res) => {
     agent.handleRequest(intentMap)
 })
 
-var activecomponents = ["one","two"];
+var activecomponents = [];
 
 
 
@@ -72,7 +72,7 @@ function reset_components_list_Intent(agent){
 function Deactivate_component_intent(agent){ 
         const deactivate = agent.parameters.componentname; 
         activecomponents.pop(deactivate); 
-        agent.add("succesfully deactivated " + deactivate)        
+        agent.add("succesfully removed " + deactivate + " from components list")        
 }
 
 
@@ -80,7 +80,7 @@ function Activate_component_intent(agent){
         //agent.add("To add the components in order you can say Add and then name of the components")
         const activate = agent.parameters.activatecomponent; 
         activecomponents.push(activate); 
-        agent.add("succesfully Added " + activate + " you can add more components by saying Add and then name of the components")       
+        agent.add("succesfully Added " + activate + " you can add more components by saying Add and then name of the component")       
 }
 
 
