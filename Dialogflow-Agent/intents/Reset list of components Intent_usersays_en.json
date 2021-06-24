@@ -1,5 +1,31 @@
 [
   {
+    "id": "8799f2d4-7a77-4313-83e4-9c14e4fa6236",
+    "data": [
+      {
+        "text": "remove all the components from list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "29769023-edd1-4b94-b73e-412e0903291d",
+    "data": [
+      {
+        "text": "reset component list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "ed42f608-4ef6-4636-a8b8-741397aed174",
     "data": [
       {
@@ -16,7 +42,7 @@
     "id": "085bdc5d-44d3-4991-a679-a69b3bfc948a",
     "data": [
       {
-        "text": "rest the list of components",
+        "text": "reset all of the components",
         "userDefined": false
       }
     ],
@@ -29,7 +55,7 @@
     "id": "cf122126-3b8d-4007-a860-40f06fefc6da",
     "data": [
       {
-        "text": "remove the components from lists",
+        "text": "remove all the components from lists",
         "userDefined": false
       }
     ],
@@ -42,7 +68,7 @@
     "id": "0816787c-d686-41da-be07-18d14b2bc759",
     "data": [
       {
-        "text": "reset the component list",
+        "text": "reset all the component list",
         "userDefined": false
       }
     ],

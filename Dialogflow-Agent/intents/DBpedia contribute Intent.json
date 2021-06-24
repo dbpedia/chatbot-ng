@@ -1,6 +1,6 @@
 {
-  "id": "b2c34f0f-a6cf-4c5f-a474-adc6637a3e02",
-  "name": "DBpedia_Info",
+  "id": "f68ee1d1-8787-4fb8-8706-1552070f3ddd",
+  "name": "DBpedia contribute Intent",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -11,32 +11,12 @@
       "parameters": [],
       "messages": [
         {
-          "type": "link_out_chip",
-          "platform": "google",
-          "title": "",
-          "textToSpeech": "",
-          "destinationName": "link",
-          "url": "https://play.google.com/store/apps/details?id\u003dcom.TacoStudios.DinosaurEscape",
-          "lang": "en",
-          "condition": ""
-        },
-        {
           "type": "0",
           "title": "",
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "DBpedia is a crowd-sourced community effort to extract structured information from Wikipedia and make this information available on the Web."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en",
-          "speech": [
-            "You can find more information here:"
+            "There are multiple ways to contribute to DBpedia                                                         \nYou can:\n1 - Look at open issues if you want to contribute to the codebase\n2 - Improve Documentation\n3 - Join the discussion on upcoming features, releases, and issues"
           ],
           "condition": ""
         },
@@ -49,17 +29,26 @@
                 {
                   "options": [
                     {
+                      "text": "Get Involved",
+                      "link": "https://www.dbpedia.org/community/improve/",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
+                        }
+                      }
+                    },
+                    {
+                      "text": "Mailing List",
                       "image": {
                         "src": {
                           "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
                         }
                       },
-                      "link": "https://www.dbpedia.org/about/",
-                      "text": "Learn More"
+                      "link": "https://sourceforge.net/projects/dbpedia/lists/dbpedia-discussion"
                     },
                     {
-                      "text": "Getting Started",
-                      "link": "https://www.dbpedia.org/",
+                      "text": "Slack",
+                      "link": "https://dbpedia.slack.com/",
                       "image": {
                         "src": {
                           "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
@@ -77,9 +66,6 @@
           "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {
-        "google": true
-      },
       "speech": []
     }
   ],

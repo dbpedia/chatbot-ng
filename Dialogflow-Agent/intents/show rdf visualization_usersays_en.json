@@ -1,0 +1,106 @@
+[
+  {
+    "id": "652edac6-9ee5-4692-8409-8140493cd32b",
+    "data": [
+      {
+        "text": "show me rdf visualization",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "60e4b487-02b1-4267-b506-eaf421c044f8",
+    "data": [
+      {
+        "text": "visualization",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dda8bbe4-481a-4b00-bcf1-b148dbd7e69e",
+    "data": [
+      {
+        "text": "show me rdf graph",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "57fa9bbf-69a5-4b6b-9666-f2091d71a70d",
+    "data": [
+      {
+        "text": "show graph",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c28a589c-a622-4c94-a872-157e50dfe173",
+    "data": [
+      {
+        "text": "show me a graph of rdf",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f3a2b5f3-69b8-48a6-b472-85af3ae72fdd",
+    "data": [
+      {
+        "text": "show me visualization",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fe46f1a7-a228-4713-bf87-1164e4b08e2e",
+    "data": [
+      {
+        "text": "show me visualization of rdf graph",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c8ac7156-49ea-40d3-ad04-dd16b93d3f83",
+    "data": [
+      {
+        "text": "show rdf graph",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

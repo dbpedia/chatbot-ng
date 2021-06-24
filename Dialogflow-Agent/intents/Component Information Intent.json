@@ -1,6 +1,6 @@
 {
-  "id": "79454367-fd2f-4f05-a670-d91fcb3232a7",
-  "name": "show_component_list",
+  "id": "844b124f-e61c-4c2d-acb0-096607a15f97",
+  "name": "Component Information Intent",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -15,6 +15,9 @@
           "title": "",
           "textToSpeech": "",
           "lang": "en",
+          "speech": [
+            "Currently, there are 55 components available"
+          ],
           "condition": ""
         }
       ],
@@ -22,7 +25,7 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],

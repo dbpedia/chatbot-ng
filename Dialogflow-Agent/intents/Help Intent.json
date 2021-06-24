@@ -1,6 +1,6 @@
 {
-  "id": "ee19d2ec-52c9-4da6-a0aa-8758c222b345",
-  "name": "reset_list_of_components",
+  "id": "dcfeb5dc-a4e7-4d2e-b42f-9acf7e7531bb",
+  "name": "Help Intent",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -15,6 +15,9 @@
           "title": "",
           "textToSpeech": "",
           "lang": "en",
+          "speech": [
+            "Currently, You can ask me about what is DBpedia? or how to contribute to DBpedia? or you can ask me a question like What is the real name of Batman?"
+          ],
           "condition": ""
         }
       ],
@@ -22,7 +25,7 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],

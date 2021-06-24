@@ -1,0 +1,124 @@
+[
+  {
+    "id": "84454a0c-40d2-456c-87df-450433abdbbc",
+    "data": [
+      {
+        "text": "add ",
+        "userDefined": false
+      },
+      {
+        "text": "NED DBpediaSpotlight",
+        "meta": "@componententity",
+        "alias": "activatecomponent",
+        "userDefined": true
+      },
+      {
+        "text": " to component list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7cf1c0c8-9dde-4664-a428-0260b1b63dc5",
+    "data": [
+      {
+        "text": "turn on ",
+        "userDefined": false
+      },
+      {
+        "text": "AmbiverseNed",
+        "meta": "@componententity",
+        "alias": "activatecomponent",
+        "userDefined": true
+      },
+      {
+        "text": " component",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c2954780-bb3c-4205-b422-6711dee600e6",
+    "data": [
+      {
+        "text": "AmbiverseNER",
+        "meta": "@componententity",
+        "alias": "activatecomponent",
+        "userDefined": true
+      },
+      {
+        "text": " add",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b997fbda-eacb-4100-a2b7-5544908e0962",
+    "data": [
+      {
+        "text": "add ",
+        "userDefined": false
+      },
+      {
+        "text": "query builder",
+        "meta": "@componententity",
+        "alias": "activatecomponent",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ff261fcc-5d27-40b9-b899-572b1b709fd0",
+    "data": [
+      {
+        "text": "start ",
+        "userDefined": false
+      },
+      {
+        "text": "query builder",
+        "meta": "@componententity",
+        "alias": "activatecomponent",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "094b0c10-fe26-4d16-93e1-bec29776478a",
+    "data": [
+      {
+        "text": "activate ",
+        "userDefined": false
+      },
+      {
+        "text": "query executer",
+        "meta": "@componententity",
+        "alias": "activatecomponent",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

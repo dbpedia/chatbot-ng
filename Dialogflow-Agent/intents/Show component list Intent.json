@@ -1,6 +1,6 @@
 {
-  "id": "c1f4cc28-53ab-4a21-8fdc-b70062420da4",
-  "name": "exit_intent",
+  "id": "79454367-fd2f-4f05-a670-d91fcb3232a7",
+  "name": "Show component list Intent",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -15,9 +15,6 @@
           "title": "",
           "textToSpeech": "",
           "lang": "en",
-          "speech": [
-            "bye! have a nice day"
-          ],
           "condition": ""
         }
       ],
@@ -25,12 +22,11 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],
   "conditionalResponses": [],
   "condition": "",
-  "conditionalFollowupEvents": [],
-  "endInteraction": true
+  "conditionalFollowupEvents": []
 }

@@ -16,7 +16,10 @@
     "welcomeIntentSignInRequired": false,
     "startIntents": [],
     "systemIntents": [],
-    "endIntentIds": [],
+    "endIntentIds": [
+      "c1f4cc28-53ab-4a21-8fdc-b70062420da4",
+      "fd66f298-e982-4bf1-a8f0-df0e601c6c63"
+    ],
     "oAuthLinking": {
       "required": false,
       "providerId": "",
@@ -35,7 +38,7 @@
   },
   "defaultTimezone": "Asia/Almaty",
   "webhook": {
-    "url": "https://23b32156866e.ngrok.io/webhook",
+    "url": "https://dbpediachatbot.herokuapp.com/webhook",
     "username": "",
     "headers": {},
     "available": true,

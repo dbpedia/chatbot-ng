@@ -1,6 +1,6 @@
 {
   "id": "6e28bd6c-222d-426d-90bd-04c180a561fa",
-  "name": "Deactivate_component_intent",
+  "name": "Deactivate component Intent",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -10,7 +10,7 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "9061916e-63e0-4cd4-96ab-0c144399f7b2",
+          "id": "6a80d652-40a4-4232-bfbb-d5bcbdded697",
           "name": "componentname",
           "required": false,
           "dataType": "@componententity",

@@ -1,6 +1,6 @@
 {
   "id": "abacee3f-28f3-45f1-a86a-4c5ffe27ef6d",
-  "name": "Activate_component_intent",
+  "name": "Activate component Intent",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -10,13 +10,13 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "4952bb5c-69c1-42ca-be92-d620a590fde9",
+          "id": "23d5e22d-b21b-4706-bebf-5d03eec9e71b",
           "name": "activatecomponent",
           "required": false,
-          "dataType": "@sys.any",
+          "dataType": "@componententity",
           "value": "$activatecomponent",
           "defaultValue": "",
-          "isList": false,
+          "isList": true,
           "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],

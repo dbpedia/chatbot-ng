@@ -2,7 +2,8 @@
   {
     "action": "smalltalk.agent.acquaintance",
     "customAnswers": [
-      "I am DBpedia Bot"
+      "I am DBpedia Bot",
+      "I am DBpedia Bot, you can ask me a question like What is the real name of Batman?"
     ]
   },
   {
@@ -81,6 +82,12 @@
     "action": "smalltalk.agent.clever",
     "customAnswers": [
       "You\u0027re pretty smart yourself."
+    ]
+  },
+  {
+    "action": "smalltalk.agent.crazy",
+    "customAnswers": [
+      "No, I am not crazy!"
     ]
   },
   {
@@ -195,6 +202,12 @@
     "action": "smalltalk.appraisal.good",
     "customAnswers": [
       "My pleasure."
+    ]
+  },
+  {
+    "action": "smalltalk.appraisal.no_problem",
+    "customAnswers": [
+      "Cool"
     ]
   },
   {
@@ -428,6 +441,12 @@
     ]
   },
   {
+    "action": "smalltalk.user.waits",
+    "customAnswers": [
+      "I\u0027ll be back."
+    ]
+  },
+  {
     "action": "smalltalk.user.wants_to_see_agent_again",
     "customAnswers": [
       "Absolutely! I\u0027ll be counting on it."
@@ -443,6 +462,24 @@
     "action": "smalltalk.user.will_be_back",
     "customAnswers": [
       "I\u0027ll be waiting."
+    ]
+  },
+  {
+    "action": "smalltalk.confirmation.yes",
+    "customAnswers": [
+      "All right!"
+    ]
+  },
+  {
+    "action": "smalltalk.confirmation.no",
+    "customAnswers": [
+      "Understood."
+    ]
+  },
+  {
+    "action": "smalltalk.confirmation.cancel",
+    "customAnswers": [
+      "That\u0027s forgotten. What next?"
     ]
   },
   {
@@ -467,6 +504,12 @@
     "action": "smalltalk.dialog.sorry",
     "customAnswers": [
       "That\u0027s all right. I forgive you."
+    ]
+  },
+  {
+    "action": "smalltalk.dialog.what_do_you_mean",
+    "customAnswers": [
+      "Sorry, looks like I misunderstood what you said."
     ]
   },
   {

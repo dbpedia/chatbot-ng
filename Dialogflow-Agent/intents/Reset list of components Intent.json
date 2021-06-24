@@ -1,6 +1,6 @@
 {
-  "id": "c377e1d2-0eaf-4084-bdde-158d981d2c2f",
-  "name": "webhook_test_intent",
+  "id": "ee19d2ec-52c9-4da6-a0aa-8758c222b345",
+  "name": "Reset list of components Intent",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -8,22 +8,7 @@
       "resetContexts": false,
       "action": "",
       "affectedContexts": [],
-      "parameters": [
-        {
-          "id": "e5d42683-3c1f-4b48-9cd7-92aaf4ed85aa",
-          "name": "city",
-          "required": false,
-          "dataType": "@sys.geo-city",
-          "value": "$city",
-          "defaultValue": "",
-          "isList": false,
-          "prompts": [],
-          "promptMessages": [],
-          "noMatchPromptMessages": [],
-          "noInputPromptMessages": [],
-          "outputDialogContexts": []
-        }
-      ],
+      "parameters": [],
       "messages": [
         {
           "type": "0",

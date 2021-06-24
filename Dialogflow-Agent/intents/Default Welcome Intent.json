@@ -9,26 +9,12 @@
       "action": "input.welcome",
       "affectedContexts": [],
       "parameters": [],
-      "messages": [
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en",
-          "speech": [
-            "Hi! I am the DBpedia bot, How are you doing?",
-            "Hello! I am the DBpedia bot,  How can I help you?",
-            "Greetings! I am the DBpedia bot,  How can I assist?",
-            "Good day! I am the DBpedia bot,  What can I do for you today?"
-          ],
-          "condition": ""
-        }
-      ],
+      "messages": [],
       "speech": []
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [
