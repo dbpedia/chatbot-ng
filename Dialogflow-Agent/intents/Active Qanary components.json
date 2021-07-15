@@ -1,6 +1,6 @@
 {
-  "id": "844b124f-e61c-4c2d-acb0-096607a15f97",
-  "name": "Component Information Intent",
+  "id": "b5a0b546-a983-4664-b62f-1ed5c7829abb",
+  "name": "Active Qanary components",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -15,9 +15,6 @@
           "title": "",
           "textToSpeech": "",
           "lang": "en",
-          "speech": [
-            "Currently, there are 55 components available"
-          ],
           "condition": ""
         }
       ],
@@ -25,7 +22,7 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "999bc493-2adf-40a8-b7f5-e0d6900de76c",
+    "data": [
+      {
+        "text": "corona bot",
+        "meta": "@sys.any",
+        "alias": "profilename",
+        "userDefined": true
+      },
+      {
+        "text": " activate the profile",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4fb0ece8-1259-4db3-8974-68a10072c9d5",
+    "data": [
+      {
+        "text": "activate a profile ",
+        "userDefined": false
+      },
+      {
+        "text": "coronabot",
+        "meta": "@sys.any",
+        "alias": "profilename",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1f434b6c-1d6d-4813-b78a-177040b8057c",
+    "data": [
+      {
+        "text": "activate the profile ",
+        "userDefined": false
+      },
+      {
+        "text": "coronabot",
+        "meta": "@sys.any",
+        "alias": "profilename",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5f0335cf-7222-4930-b693-87f080d90957",
+    "data": [
+      {
+        "text": "corona bot",
+        "meta": "@sys.any",
+        "alias": "profilename",
+        "userDefined": false
+      },
+      {
+        "text": " activate profile",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1d1abb31-ea29-4616-a098-f299bc28acd7",
+    "data": [
+      {
+        "text": "activate profile ",
+        "userDefined": false
+      },
+      {
+        "text": "coronabot",
+        "meta": "@sys.any",
+        "alias": "profilename",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

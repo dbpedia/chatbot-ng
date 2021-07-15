@@ -10,10 +10,10 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "6a80d652-40a4-4232-bfbb-d5bcbdded697",
+          "id": "11f08efd-690a-41bc-a259-6468b3ddca6b",
           "name": "componentname",
           "required": false,
-          "dataType": "@componententity",
+          "dataType": "@sys.any",
           "value": "$componentname",
           "defaultValue": "",
           "isList": false,

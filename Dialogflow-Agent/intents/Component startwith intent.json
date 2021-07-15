@@ -1,6 +1,6 @@
 {
-  "id": "abacee3f-28f3-45f1-a86a-4c5ffe27ef6d",
-  "name": "Activate component Intent",
+  "id": "83eb512b-84c7-4e3d-a7c0-c328b29168a4",
+  "name": "Component startwith intent",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -10,13 +10,13 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "94a40a91-2ada-4c08-bca1-b8f6801533bf",
-          "name": "activatecomponent",
+          "id": "3c62d86d-b909-4181-b830-7f7d3507bf48",
+          "name": "startwith",
           "required": false,
           "dataType": "@sys.any",
-          "value": "$activatecomponent",
+          "value": "$startwith",
           "defaultValue": "",
-          "isList": true,
+          "isList": false,
           "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],

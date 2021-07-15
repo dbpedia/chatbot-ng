@@ -1,0 +1,21 @@
+[
+  {
+    "id": "9407ec36-bd17-4f62-82af-f24190d3cef2",
+    "data": [
+      {
+        "text": "show components containing ",
+        "userDefined": false
+      },
+      {
+        "text": "coro",
+        "meta": "@sys.any",
+        "alias": "startwith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,9 +1,9 @@
 [
   {
-    "id": "8799f2d4-7a77-4313-83e4-9c14e4fa6236",
+    "id": "512e8651-8334-4f34-8598-1dc7251afaf5",
     "data": [
       {
-        "text": "remove all the components from list",
+        "text": "reset components list",
         "userDefined": false
       }
     ],
@@ -26,19 +26,6 @@
     "updated": 0
   },
   {
-    "id": "ed42f608-4ef6-4636-a8b8-741397aed174",
-    "data": [
-      {
-        "text": "remove every component from the list",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "085bdc5d-44d3-4991-a679-a69b3bfc948a",
     "data": [
       {
@@ -52,36 +39,10 @@
     "updated": 0
   },
   {
-    "id": "cf122126-3b8d-4007-a860-40f06fefc6da",
-    "data": [
-      {
-        "text": "remove all the components from lists",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "0816787c-d686-41da-be07-18d14b2bc759",
     "data": [
       {
         "text": "reset all the component list",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "c75a147b-45ea-4c7b-b1a6-bf4c1df16ab5",
-    "data": [
-      {
-        "text": "remove all the components from the list",
         "userDefined": false
       }
     ],

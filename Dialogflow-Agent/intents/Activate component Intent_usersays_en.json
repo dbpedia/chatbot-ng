@@ -8,7 +8,7 @@
       },
       {
         "text": "NED DBpediaSpotlight",
-        "meta": "@componententity",
+        "meta": "@sys.any",
         "alias": "activatecomponent",
         "userDefined": true
       },
@@ -31,7 +31,7 @@
       },
       {
         "text": "AmbiverseNed",
-        "meta": "@componententity",
+        "meta": "@sys.any",
         "alias": "activatecomponent",
         "userDefined": true
       },
@@ -50,7 +50,7 @@
     "data": [
       {
         "text": "AmbiverseNER",
-        "meta": "@componententity",
+        "meta": "@sys.any",
         "alias": "activatecomponent",
         "userDefined": true
       },
@@ -73,7 +73,7 @@
       },
       {
         "text": "query builder",
-        "meta": "@componententity",
+        "meta": "@sys.any",
         "alias": "activatecomponent",
         "userDefined": true
       }
@@ -92,26 +92,7 @@
       },
       {
         "text": "query builder",
-        "meta": "@componententity",
-        "alias": "activatecomponent",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "094b0c10-fe26-4d16-93e1-bec29776478a",
-    "data": [
-      {
-        "text": "activate ",
-        "userDefined": false
-      },
-      {
-        "text": "query executer",
-        "meta": "@componententity",
+        "meta": "@sys.any",
         "alias": "activatecomponent",
         "userDefined": true
       }

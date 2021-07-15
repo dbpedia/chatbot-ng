@@ -43,7 +43,6 @@
     "data": [
       {
         "text": "exit",
-        "meta": "@sys.ignore",
         "userDefined": false
       }
     ],

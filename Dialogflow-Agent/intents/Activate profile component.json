@@ -1,6 +1,6 @@
 {
-  "id": "abacee3f-28f3-45f1-a86a-4c5ffe27ef6d",
-  "name": "Activate component Intent",
+  "id": "a62b2586-630f-41d7-910f-6ae26c39f6db",
+  "name": "Activate profile component",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -10,13 +10,13 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "94a40a91-2ada-4c08-bca1-b8f6801533bf",
-          "name": "activatecomponent",
+          "id": "2170d4d6-429d-46c4-942c-5a8e15a556ae",
+          "name": "profilename",
           "required": false,
           "dataType": "@sys.any",
-          "value": "$activatecomponent",
+          "value": "$profilename",
           "defaultValue": "",
-          "isList": true,
+          "isList": false,
           "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],

@@ -3,56 +3,8 @@
   "name": "show rdf visualization",
   "auto": true,
   "contexts": [],
-  "responses": [
-    {
-      "resetContexts": false,
-      "action": "",
-      "affectedContexts": [],
-      "parameters": [],
-      "messages": [
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en",
-          "speech": [
-            "Go to this link to see RDF Visualization - https://rdfgraphvisualizations.herokuapp.com/"
-          ],
-          "condition": ""
-        },
-        {
-          "type": "4",
-          "title": "",
-          "payload": {
-            "richContent": [
-              [
-                {
-                  "options": [
-                    {
-                      "text": "Link",
-                      "image": {
-                        "src": {
-                          "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
-                        }
-                      },
-                      "link": "https://rdfgraphvisualizations.herokuapp.com/"
-                    }
-                  ],
-                  "type": "chips"
-                }
-              ]
-            ]
-          },
-          "textToSpeech": "",
-          "lang": "en",
-          "condition": ""
-        }
-      ],
-      "speech": []
-    }
-  ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],

@@ -1,5 +1,31 @@
 [
   {
+    "id": "fa08c56e-b1b9-426c-8a4a-bf38fe1fd0de",
+    "data": [
+      {
+        "text": "show components",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "25d72cd0-6424-47ef-90c1-e5e2c23ea33f",
+    "data": [
+      {
+        "text": "show component",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "03e6bda1-d72e-4c02-888c-7fba25c067cb",
     "data": [
       {
