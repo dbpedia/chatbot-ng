@@ -6,24 +6,17 @@
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sruthivs/Heroku.git"
-  },
+  }, 
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sruthivs/Heroku/issues"
-  },
-  "homepage": "https://github.com/sruthivs/Heroku#readme",
+  "license": "ISC", 
   "dependencies": {
-    "actions-on-google": "^2.3.0",
+    "actions-on-google": "^2.5.0",
     "body-parser": "^1.18.3",
     "dialogflow": "^0.6.0",
-    "dialogflow-fulfillment": "^0.5.0",
+    "dialogflow-fulfillment": "^0.6.1",
     "express": "^4.16.3",
     "axios": "0.18.0",
-    "fuzzyset":"1.0.6"
+    "fuzzyset":"1.0.6",
+    "sparql-http-client":"2.4.0"
   }
 }

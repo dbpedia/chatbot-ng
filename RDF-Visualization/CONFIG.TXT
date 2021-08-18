@@ -1,0 +1,9 @@
+[config]
+URL = https://webengineering.ins.hs-anhalt.de:40159/qanary/query
+SECOND_URL = https://webengineering.ins.hs-anhalt.de:43740/startquestionansweringwithtextquestion
+USERNAME = admin
+PASSWORD = admin 
+HEIGHT = 750px 
+GRAVITY = -90
+SPRING_LENGTH = 175
+CENTRAL_GRAVITY = 0
