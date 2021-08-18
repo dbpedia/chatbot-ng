@@ -42,48 +42,6 @@
     "updated": 0
   },
   {
-    "id": "82b7aae5-c737-4df9-9e16-2967920b518d",
-    "data": [
-      {
-        "text": "deactivate ",
-        "userDefined": false
-      },
-      {
-        "text": "querybuilder",
-        "meta": "@sys.any",
-        "alias": "componentname",
-        "userDefined": true
-      },
-      {
-        "text": " component",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "d7bfde09-05be-4d9c-9530-609caf99e650",
-    "data": [
-      {
-        "text": "AmbiverseNed",
-        "meta": "@sys.any",
-        "alias": "componentname",
-        "userDefined": true
-      },
-      {
-        "text": " deactivate",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "b0051a0f-280a-414e-b22a-625fd24266ff",
     "data": [
       {
@@ -115,25 +73,6 @@
       },
       {
         "text": "AmbiverseNed",
-        "meta": "@sys.any",
-        "alias": "componentname",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "76c73941-baf0-443b-ab95-e55f64d067df",
-    "data": [
-      {
-        "text": "deactivate ",
-        "userDefined": false
-      },
-      {
-        "text": "querybuilder",
         "meta": "@sys.any",
         "alias": "componentname",
         "userDefined": true

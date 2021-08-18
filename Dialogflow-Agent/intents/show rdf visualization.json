@@ -10,6 +10,5 @@
   "events": [],
   "conditionalResponses": [],
   "condition": "",
-  "conditionalFollowupEvents": [],
-  "endInteraction": true
+  "conditionalFollowupEvents": []
 }

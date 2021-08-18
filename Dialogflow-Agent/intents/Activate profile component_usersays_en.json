@@ -9,7 +9,7 @@
         "userDefined": true
       },
       {
-        "text": " activate the profile",
+        "text": " start the profile",
         "userDefined": false
       }
     ],
@@ -22,7 +22,7 @@
     "id": "4fb0ece8-1259-4db3-8974-68a10072c9d5",
     "data": [
       {
-        "text": "activate a profile ",
+        "text": "start a profile ",
         "userDefined": false
       },
       {
@@ -41,7 +41,7 @@
     "id": "1f434b6c-1d6d-4813-b78a-177040b8057c",
     "data": [
       {
-        "text": "activate the profile ",
+        "text": "start the profile ",
         "userDefined": false
       },
       {
@@ -66,7 +66,7 @@
         "userDefined": false
       },
       {
-        "text": " activate profile",
+        "text": " start profile",
         "userDefined": false
       }
     ],
@@ -79,11 +79,11 @@
     "id": "1d1abb31-ea29-4616-a098-f299bc28acd7",
     "data": [
       {
-        "text": "activate profile ",
+        "text": "start ",
         "userDefined": false
       },
       {
-        "text": "coronabot",
+        "text": "coronabot component",
         "meta": "@sys.any",
         "alias": "profilename",
         "userDefined": true

@@ -10,7 +10,7 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "94a40a91-2ada-4c08-bca1-b8f6801533bf",
+          "id": "c835e6a6-ad80-4580-9707-f05a6d533bfe",
           "name": "activatecomponent",
           "required": false,
           "dataType": "@sys.any",

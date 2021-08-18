@@ -3,74 +3,8 @@
   "name": "DBpedia contribute Intent",
   "auto": true,
   "contexts": [],
-  "responses": [
-    {
-      "resetContexts": false,
-      "action": "",
-      "affectedContexts": [],
-      "parameters": [],
-      "messages": [
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en",
-          "speech": [
-            "There are multiple ways to contribute to DBpedia                                                         \nYou can:\n1 - Look at open issues if you want to contribute to the codebase\n2 - Improve Documentation\n3 - Join the discussion on upcoming features, releases, and issues"
-          ],
-          "condition": ""
-        },
-        {
-          "type": "4",
-          "title": "",
-          "payload": {
-            "richContent": [
-              [
-                {
-                  "options": [
-                    {
-                      "text": "Get Involved",
-                      "link": "https://www.dbpedia.org/community/improve/",
-                      "image": {
-                        "src": {
-                          "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
-                        }
-                      }
-                    },
-                    {
-                      "text": "Mailing List",
-                      "image": {
-                        "src": {
-                          "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
-                        }
-                      },
-                      "link": "https://sourceforge.net/projects/dbpedia/lists/dbpedia-discussion"
-                    },
-                    {
-                      "text": "Slack",
-                      "link": "https://dbpedia.slack.com/",
-                      "image": {
-                        "src": {
-                          "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
-                        }
-                      }
-                    }
-                  ],
-                  "type": "chips"
-                }
-              ]
-            ]
-          },
-          "textToSpeech": "",
-          "lang": "en",
-          "condition": ""
-        }
-      ],
-      "speech": []
-    }
-  ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],

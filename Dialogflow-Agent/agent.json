@@ -17,8 +17,7 @@
     "startIntents": [],
     "systemIntents": [],
     "endIntentIds": [
-      "c1f4cc28-53ab-4a21-8fdc-b70062420da4",
-      "fd66f298-e982-4bf1-a8f0-df0e601c6c63"
+      "c1f4cc28-53ab-4a21-8fdc-b70062420da4"
     ],
     "oAuthLinking": {
       "required": false,

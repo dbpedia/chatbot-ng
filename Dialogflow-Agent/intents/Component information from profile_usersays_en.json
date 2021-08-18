@@ -1,0 +1,21 @@
+[
+  {
+    "id": "ecdf4bd5-42bd-4d84-8ac4-b382ccf21885",
+    "data": [
+      {
+        "text": "show components of ",
+        "userDefined": false
+      },
+      {
+        "text": "profile",
+        "meta": "@sys.any",
+        "alias": "profilename",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

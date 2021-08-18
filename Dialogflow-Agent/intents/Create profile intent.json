@@ -1,6 +1,6 @@
 {
-  "id": "6e28bd6c-222d-426d-90bd-04c180a561fa",
-  "name": "Deactivate component Intent",
+  "id": "574a34b4-d0e4-4eca-ba62-0a0ec2fa3e7a",
+  "name": "Create profile intent",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -10,11 +10,11 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "0e05ad20-4ef4-49ec-83c6-af832d8fcb11",
-          "name": "componentname",
+          "id": "1bbd1a16-aa36-409a-8b4a-03afdda5cc62",
+          "name": "newprofilename",
           "required": false,
           "dataType": "@sys.any",
-          "value": "$componentname",
+          "value": "$newprofilename",
           "defaultValue": "",
           "isList": false,
           "prompts": [],

@@ -3,88 +3,8 @@
   "name": "DBpedia Info Intent",
   "auto": true,
   "contexts": [],
-  "responses": [
-    {
-      "resetContexts": false,
-      "action": "",
-      "affectedContexts": [],
-      "parameters": [],
-      "messages": [
-        {
-          "type": "link_out_chip",
-          "platform": "google",
-          "title": "",
-          "textToSpeech": "",
-          "destinationName": "link",
-          "url": "https://play.google.com/store/apps/details?id\u003dcom.TacoStudios.DinosaurEscape",
-          "lang": "en",
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en",
-          "speech": [
-            "DBpedia is a crowd-sourced community effort to extract structured information from Wikipedia and make this information available on the Web."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en",
-          "speech": [
-            "You can find more information here:"
-          ],
-          "condition": ""
-        },
-        {
-          "type": "4",
-          "title": "",
-          "payload": {
-            "richContent": [
-              [
-                {
-                  "options": [
-                    {
-                      "text": "Learn More",
-                      "image": {
-                        "src": {
-                          "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
-                        }
-                      },
-                      "link": "https://www.dbpedia.org/about/"
-                    },
-                    {
-                      "link": "https://www.dbpedia.org/",
-                      "text": "Getting Started",
-                      "image": {
-                        "src": {
-                          "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
-                        }
-                      }
-                    }
-                  ],
-                  "type": "chips"
-                }
-              ]
-            ]
-          },
-          "textToSpeech": "",
-          "lang": "en",
-          "condition": ""
-        }
-      ],
-      "defaultResponsePlatforms": {
-        "google": true
-      },
-      "speech": []
-    }
-  ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],

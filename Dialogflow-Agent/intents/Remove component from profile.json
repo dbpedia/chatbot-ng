@@ -1,6 +1,6 @@
 {
-  "id": "6e28bd6c-222d-426d-90bd-04c180a561fa",
-  "name": "Deactivate component Intent",
+  "id": "74a99f0f-4d99-4724-886a-085d93d7491a",
+  "name": "Remove component from profile",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -10,11 +10,25 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "0e05ad20-4ef4-49ec-83c6-af832d8fcb11",
-          "name": "componentname",
+          "id": "705b93a9-3606-4f33-b9f2-932e0f584e2f",
+          "name": "newcomponentname",
           "required": false,
           "dataType": "@sys.any",
-          "value": "$componentname",
+          "value": "$newcomponentname",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6137aada-ec4a-4aa0-9776-ce77f5b637f4",
+          "name": "profilename",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$profilename",
           "defaultValue": "",
           "isList": false,
           "prompts": [],

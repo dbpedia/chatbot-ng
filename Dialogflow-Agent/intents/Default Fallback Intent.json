@@ -10,6 +10,9 @@
       "affectedContexts": [],
       "parameters": [],
       "messages": [],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
       "speech": []
     }
   ],

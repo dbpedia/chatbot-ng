@@ -1,0 +1,56 @@
+[
+  {
+    "id": "277b16a8-2ff7-4315-8dee-5f985edb8042",
+    "data": [
+      {
+        "text": "query builder",
+        "meta": "@sys.any",
+        "alias": "newcomponentname",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "cricket",
+        "meta": "@sys.any",
+        "alias": "profilename",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "21083e4d-2947-4c1e-8290-54845355b83c",
+    "data": [
+      {
+        "text": "activate ",
+        "userDefined": false
+      },
+      {
+        "text": "query builder",
+        "meta": "@sys.any",
+        "alias": "newcomponentname",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "cricket",
+        "meta": "@sys.any",
+        "alias": "profilename",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

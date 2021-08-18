@@ -1,0 +1,31 @@
+[
+  {
+    "id": "a74ab474-3b85-4e97-94cd-7ccb36a0261a",
+    "data": [
+      {
+        "text": "deactivate ",
+        "userDefined": false
+      },
+      {
+        "text": "component",
+        "meta": "@sys.any",
+        "alias": "newcomponentname",
+        "userDefined": true
+      },
+      {
+        "text": " from ",
+        "userDefined": false
+      },
+      {
+        "text": "profile",
+        "meta": "@sys.any",
+        "alias": "profilename",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
