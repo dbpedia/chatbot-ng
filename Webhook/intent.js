@@ -580,8 +580,8 @@ async function getAnswerFromQanary(graphId) {
     SELECT ?answer
     FROM <${graphId}>
     WHERE {
-        ?s a qa:AnnotationOfQaInterface ;
-          oa:answerResult ?answer .
+      VALUES ?p { oa:answerResult rdf:value }
+      ?s ?p ?answer .
     }
   `
 
