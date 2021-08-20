@@ -22,7 +22,7 @@ The project is supervised and supported by:
 
 ## Quick Links
 
-- the [DBpedia chatbot](https://tacoaccounttest.github.io/)
+- the [DBpedia chatbot](https://webengineering.ins.hs-anhalt.de/dbpediabot/)
 - [How to use DBpedia Chatbot](https://jayeshdesai4520.github.io/DBpedia-GSoC-2021/about) <br> 
 For more information about this project and **GSoC progress** please refer to [GSoC Wiki](https://github.com/dbpedia/chatbot-ng/wiki) and the [progress report](https://jayeshdesai4520.github.io/DBpedia-GSoC-2021/)
 
