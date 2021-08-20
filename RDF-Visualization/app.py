@@ -19,7 +19,6 @@ SPRING_LENGTH = parser.get("config", "SPRING_LENGTH")
 CENTRAL_GRAVITY = parser.get("config", "CENTRAL_GRAVITY")
 
 
-
 @app.route('/visualize/<graphID>')
 def show_graph(graphID): 
 	sparql_database = SPARQLWrapper(URL)
@@ -28,12 +27,12 @@ def show_graph(graphID):
 		DESCRIBE *
 		FROM <""" + graphID  + """>
 		WHERE {
-				?s a qa:AnnotationOfAnswerSPARQL.
-				?s oa:hasBody ?sparqlQueryOnDBpedia .
-				?s oa:annotatedBy ?annotatingService .
-				?s oa:annotatedAt ?time .
-			}
-			"""   
+			VALUES ?type { qa:AnnotationOfAnswerSPARQL qa:AnnotationOfQaInterface }
+			?s a ?type .
+			?s oa:annotatedBy ?annotatingService .
+			?s oa:annotatedAt ?time .
+		}
+	"""   
 	sparql_database.setQuery(sparql_query)
 	sparql_database.setReturnFormat(XML)
 	sparql_database.setMethod("POST")
@@ -45,9 +44,6 @@ def show_graph(graphID):
 	net.force_atlas_2based(gravity=GRAVITY,spring_length = SPRING_LENGTH, central_gravity = CENTRAL_GRAVITY)
 	save = net.show("templates/index.html")
 	return render_template('index.html')
-
-
-
 
 
 @app.route('/visualize/example')
@@ -70,12 +66,12 @@ def html_page():
 	DESCRIBE *
 	FROM <""" + graph_id_test  + """>
 	WHERE {
-			?s a qa:AnnotationOfAnswerSPARQL.
-			?s oa:hasBody ?sparqlQueryOnDBpedia .
-			?s oa:annotatedBy ?annotatingService .
-			?s oa:annotatedAt ?time .
-		}
-		"""   
+		VALUES ?type { qa:AnnotationOfAnswerSPARQL qa:AnnotationOfQaInterface }
+		?s a ?type .
+		?s oa:annotatedBy ?annotatingService .
+		?s oa:annotatedAt ?time .
+	}
+	"""   
 	sparql_database.setQuery(sparql_query)
 	sparql_database.setReturnFormat(XML)
 	sparql_database.setMethod("POST")
@@ -91,5 +87,8 @@ def html_page():
 
 if __name__ == '__main__':
 	port = int(os.environ.get("PORT", 5000))
-	app.run(host='0.0.0.0', port=port)
+	if os.environ.get("SSL_CERT") and os.environ.get("SSL_KEY"):
+		app.run(host='0.0.0.0', port=port, ssl_context=(os.environ.get("SSL_CERT"), os.environ.get("SSL_KEY")))
+	else:
+		app.run(host='0.0.0.0', port=port)
 	app.run()

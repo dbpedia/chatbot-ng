@@ -1,28 +1,36 @@
 # DBpedia Chatbot - New Generation
-The Modern DBpedia chatbot with the functionality of the Qanary framework including its plug-and-play components and their optimization.  <br>
 
-This repository will provide the implementation of the project proposed using the title ['Modular DBpedia Chatbot'](https://forum.dbpedia.org/t/modular-dbpedia-chatbot-gsoc-2021/953) that is funded by the [Google Summer of Code program](https://summerofcode.withgoogle.com/projects/#5922382260207616). Please find [more information in the DBpedia forum](https://forum.dbpedia.org/t/modular-dbpedia-chatbot-gsoc-2021/953) and in the [blog of the project for more detailed information.](https://jayeshdesai4520.github.io/DBpedia-GSoC-2021/about)
+This modern [DBpedia](https://dbpedia.org/) chatbot provides access to a self-configurable Question Answering (QA) system.
+The chatbot is encapsulating the functionality of the [Qanary framework](https://github.com/WDAqua/Qanary) including its plug-and-play components (cf. the [list of available components](https://github.com/WDAqua/Qanary-question-answering-components)). 
+This project is dedicated to enabling regular users and researchers to define their own QA system by combining components just by interacting with the provided chatbot. Hence, no technical skills are required to create and test a new QA system.
 
-The project is carried out by [Jayesh Desai](https://github.com/jayeshdesai4520). 
+This repository provides the implementation of the chatbot. 
+It was initially implemented funded by the [Google Summmer of Code program](https://summerofcode.withgoogle.com/projects/#5922382260207616) (GSoC). 
+Originally it was proposed in the DBpedia forum: ['Modular DBpedia Chatbot'](https://forum.dbpedia.org/t/modular-dbpedia-chatbot-gsoc-2021/953). 
+Please find more information in the [blog of the project](https://jayeshdesai4520.github.io/DBpedia-GSoC-2021/about).
 
-The project Supervision and support is done by:
+## Team
+
+The GSoC project was carried out by [Jayesh Desai](https://github.com/jayeshdesai4520). 
+
+The project is supervised and supported by:
 
 * [Andreas Both](https://github.com/anbo-de)
-* [Alexander Perevalov](https://github.com/Perevalov)
+* [Aleksandr Perevalov](https://github.com/Perevalov)
 * [Ricardo Usbeck](https://github.com/RicardoUsbeck)
 * [Ram Athreya](https://github.com/ram-g-athreya)
 
 ## Quick Links
+
+- the [DBpedia chatbot](https://tacoaccounttest.github.io/)
+- [How to use DBpedia Chatbot](https://jayeshdesai4520.github.io/DBpedia-GSoC-2021/about) <br> 
+For more information about this project and **GSoC progress** please refer to [GSoC Wiki](https://github.com/dbpedia/chatbot-ng/wiki) and the [progress report](https://jayeshdesai4520.github.io/DBpedia-GSoC-2021/)
+
+## Used Technology
+
+- [Google Dialogflow](https://dialogflow.cloud.google.com/)
 - [Qanary Framework](https://github.com/WDAqua/Qanary)
-- [Question Answer Components](https://github.com/WDAqua/Qanary-question-answering-components)
-___
-[Final Application](https://tacoaccounttest.github.io/) <br> 
-[How to use DBpedia Chatbot](https://jayeshdesai4520.github.io/DBpedia-GSoC-2021/about) <br> 
-For more information about this project and **GSoC Progress** please refer to [GSoC Wiki](https://github.com/dbpedia/chatbot-ng/wiki) and [Progress](https://jayeshdesai4520.github.io/DBpedia-GSoC-2021/) <br> 
-
-Tap below GIF to open the Video  <br>  <br> 
-[![DBpedia Chatbot YouTube Video](https://j.gifs.com/36y1JR.gif)](https://youtu.be/acUmhZbHfKY)
-
+- [Qanary Question Answer Components](https://github.com/WDAqua/Qanary-question-answering-components)
 
 ## Folder Structure
 
@@ -30,25 +38,25 @@ Tap below GIF to open the Video  <br>  <br>
     ├── Zip File                # Import zip file in dialogflow
     ├── Webhook                 # Webhook code
     ├── RDF-Visualization       # RDF visualization code
-    
-    
 
 ## Getting Started
 
-You will need to register a free account on [Dialogflow](https://dialogflow.cloud.google.com/). After that you need to create an agent. <br> <br>
+You will need to register a free account on [Dialogflow](https://dialogflow.cloud.google.com/) if you want to run the chatbot by yourself. 
+After that you need to create an agent. 
 
 ### Installation
 
-- Download or clone the repository, Navigate to the directory named zip file <br> <br>
+- Download or clone the repository, navigate to the directory named zip file 
 - Next, select the gear icon to go to settings <br> <br>
 ![](https://imgur.com/kXBTaEr.png)  <br> <br>
 - After that, select the export and import tab.  <br> <br>
 ![](https://imgur.com/Gr5VVBj.png)  <br> <br>
-- Now, click on import zip file and select the zip file  <br> <br>
+- Now, click on import zip file and select the zip file. <br> <br>
 ![](https://imgur.com/dd59yCh.png)  <br> <br>
-Dialogflow will import the entire agent from the zip file for you. 
+- Dialogflow will import the entire agent from the zip file for you. 
+- Now, you have the complete DBpedia chatbot in your own project.
 
-### Setup webhook in heroku 
+### Setup webhook in Heroku 
 
 - Sign up for Heroku <br> <br>
 - Create new app and follow the instruction given in Heroku website <br> <br>
@@ -76,7 +84,7 @@ See `contributing.md` for ways to get started.
  
 ## Feedback
 
-Feedback is appreciated! submit a new issue!
+Feedback is appreciated! [Do not hesitate to submit a new issue!](https://github.com/dbpedia/chatbot-ng/issues/new)
 
 
 ## License
