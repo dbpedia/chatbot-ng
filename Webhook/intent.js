@@ -27,8 +27,8 @@ function welcomeIntent(agent) {
         console.log(sessionIdManagement)
         if(agent.requestSource == "ACTIONS_ON_GOOGLE"){
             conv.ask(output)
-            conv.ask(new Suggestions("What is dbpedia?"))
-            conv.ask(new Suggestions("How to contribute to dbpedia?"))
+            conv.ask(new Suggestions("What is DBpedia?"))
+            conv.ask(new Suggestions("How to contribute to DBpedia?"))
             conv.ask(new LinkOutSuggestion({
                 name: 'Tutorial',
                 url: 'https://jayeshdesai4520.github.io/DBpedia-GSoC-2021/about'
@@ -42,14 +42,14 @@ function welcomeIntent(agent) {
                           {
                             "options": [
                               { 
-                                "text": "What is dbpedia?",
+                                "text": "What is DBpedia?",
                               },
                               { 
-                                "text": "How to contribute to dbpedia?",
+                                "text": "How to contribute to DBpedia?",
                               },
                               {
                                 "link": 'https://jayeshdesai4520.github.io/DBpedia-GSoC-2021/about',
-                                "text": "Check Tutorial",
+                                "text": "Check the tutorial.",
                                 "image": {
                                   "src": {
                                     "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
@@ -119,14 +119,14 @@ function dbpediaInfoIntent(agent) {
 function dbpediaContributeIntent(agent) {
         let conv = agent.conv()  
         if(agent.requestSource == "ACTIONS_ON_GOOGLE"){
-            conv.ask('There are multiple ways to contribute to DBpedia, You can: 1 - Look at open issues if you want to contribute to the codebase 2 - Improve Documentation 3 - Join the discussion on upcoming features, releases, and issues')
+            conv.ask('There are multiple ways to contribute to DBpedia, you can: 1 - Look at open issues if you want to contribute to the codebase; 2 - Improve documentation; 3 - Join the discussion on upcoming features, releases, and issues')
             conv.ask(new LinkOutSuggestion({
                 name: 'Get Involved',
                 url: 'https://www.dbpedia.org/community/improve/',
             }))
             agent.add(conv)
         }else{ 
-            agent.add('There are multiple ways to contribute to DBpedia, You can: 1 - Look at open issues if you want to contribute to the codebase 2 - Improve Documentation 3 - Join the discussion on upcoming features, releases, and issues')    
+            agent.add('There are multiple ways to contribute to DBpedia, you can: 1 - Look at open issues if you want to contribute to the codebase; 2 - Improve documentation; 3 - Join the discussion on upcoming features, releases, and issues')    
             const payload = {
                   "richContent": [
                     [
@@ -174,7 +174,7 @@ function dbpediaContributeIntent(agent) {
 function activeComponentsIntent(agent) {
     let conv = agent.conv()
     if (!sessionIdManagement.has(agent.session.split('/')[4])) {
-        agent.add('Currently, there are no active components, you can add components by saying Add and then name of the component.')
+        agent.add('Currently, there are no active components, you can add components by saying "add" and then name of the component.')
     }else{
         const getComponent = sessionIdManagement.get(agent.session.split('/')[4]) 
         const show = getComponent.components
@@ -211,7 +211,7 @@ function resetComponentsListIntent(agent) {
     sessionIdManagement.set(agent.session.split('/')[4], {
             components: ['NED-DBpediaSpotlight', 'QueryBuilderSimpleRealNameOfSuperHero', 'SparqlExecuter', 'OpenTapiocaNED', 'BirthDataQueryBuilder', 'WikidataQueryExecuter']
          })
-    agent.add('Reset Successfully, Components list are now empty.') 
+    agent.add('Reset successfully, the components list is now empty.') 
     console.log(sessionIdManagement)
 }
  
@@ -229,7 +229,7 @@ async function deactivateComponentIntent(agent) {
     let qanaryComponentList = await qanaryComponents.getQanaryComponents()
     let deactivateResult = qanaryComponentList.get(deactivate)
     if (deactivateResult == null){
-        agent.add(deactivate + ' not available to know more about active components use command \'list of active qanary components\'.')
+        agent.add(deactivate + ' is not available, to see the active components use command \'list of active qanary components\'.')
     }else{
         let deactivateComponent = deactivateResult[0][1]     
         let finalComponentRemove = deactivateComponent.replace(/['"]+/g, '')
@@ -243,7 +243,7 @@ async function deactivateComponentIntent(agent) {
             sessionIdManagement.set(agent.session.split('/')[4], {
             components: localcomponentList
             })
-            agent.add("Successfully removed " + finalComponentRemove + " from components list.")
+            agent.add("Successfully removed " + finalComponentRemove + " from the components list.")
             console.log(sessionIdManagement)
         }  
     }
@@ -256,7 +256,7 @@ async function activateComponentIntent(agent) {
     let qanaryComponentList = await qanaryComponents.getQanaryComponents()
     let activateResult = qanaryComponentList.get(activateComponent)
     if (activateResult == null){
-        agent.add(activateComponent + ' not available to know more about active components use command \'list of active qanary components\'.')
+        agent.add(activateComponent + ' not available to know more about the active components use command \'list of active qanary components\'.')
     }else{  
         let addComponent = activateResult[0][1] 
         let finalComponentAdd = addComponent.replace(/['"]+/g, '') 
@@ -268,7 +268,7 @@ async function activateComponentIntent(agent) {
             sessionIdManagement.set(agent.session.split('/')[4], {
             components: localcomponentList
             })
-            agent.add('Successfully Added ' + finalComponentAdd + ' you can add more components by saying Add and then name of the component.')
+            agent.add('Successfully added ' + finalComponentAdd + ' you can add more components by saying \'add\' plus the name of the component.')
             console.log(sessionIdManagement)
         }else{
             agent.add(finalComponentAdd + ' already exists in the list to know more about active components use command \'list of active qanary components\'.')
@@ -278,7 +278,7 @@ async function activateComponentIntent(agent) {
 
 async function activeQanaryIntent(agent) { 
   let fuzzy = await qanaryComponents.getQanaryComponents()  
-  agent.add('Total Active components are ' + fuzzy.length() + ' and components are ' + fuzzy.values() )  
+  agent.add('Currently ' + fuzzy.length() + ' are active. The components are ' + fuzzy.values() )  
 }
 
 async function componentStartwithIntent(agent) {
@@ -304,13 +304,13 @@ async function componentStartwithIntent(agent) {
 function createProfileIntent(agent) {  
   let profileName = agent.parameters.newprofilename;
   if (profiles.has(agent.session.split('/')[4] + profileName)) {
-    agent.add(profileName + ' Profile already exists.'); 
+    agent.add('Profile \'' + profileName + '\' already exists.'); 
   } else {  
     profiles.set(agent.session.split('/')[4] + profileName, {
         components: profileComponents
       }) 
     console.log(profiles)
-    agent.add(profileName + ' Profile added successfully. Now to use this profile you can say start ' + profileName + ' to activate the profile.');      
+    agent.add(' Profile \'' + profileName +'\' added successfully. Now to use this profile you can say \'start ' + profileName + '\' to activate the profile.');      
   }
 }
 
@@ -323,7 +323,7 @@ async function addComponentsToProfile(agent) {
     let qanaryComponentList = await qanaryComponents.getQanaryComponents()
     let checkComponents = qanaryComponentList.get(componentName) 
     if (checkComponents == null){
-        agent.add(componentName + ' not available to know more about active components use command \'list of active qanary components\'.')
+        agent.add('Component ' + componentName + ' is not available. To see the active components use command \'list of active qanary components\'.')
     } else {
         let addComponents = checkComponents[0][1]     
         let finalComponentAdd = addComponents.replace(/['"]+/g, '') 
@@ -335,7 +335,7 @@ async function addComponentsToProfile(agent) {
             profiles.set(agent.session.split('/')[4] + profileName, {
             components: localcomponentList
             })
-            agent.add('Successfully Added ' + finalComponentAdd + ' to the ' + profileName + ' you can add more components by saying Add and then name of the component.')
+            agent.add('Successfully added \'' + finalComponentAdd + '\' to the profile \'' + profileName + '\'. You can add more components by saying \'add\' followed by the name of the component.')
             console.log(profiles)
         } else {
             agent.add(finalComponentAdd + ' already exists in the list.')
@@ -368,12 +368,12 @@ async function removeComponentFromProfile(agent) {
                 profiles.set(agent.session.split('/')[4] + profileName, {
                 components: localcomponentList
                 })
-                agent.add("Successfully removed " + finalComponentRemove + " from components list of " +  profileName)
+                agent.add("Successfully removed " + finalComponentRemove + " from components list of the profile " +  profileName + ".")
                 console.log(profiles)
             }   
         }
     }else{
-        agent.add(profileName + ' does not exists, to create new profile you can say \'create profile and then profile name\' like create profile country.')
+        agent.add(profileName + ' does not exists, to create a new profile you can say \'create profile and then profile name\' like create \'profile myname\'.')
     }
 }
 
@@ -389,7 +389,7 @@ function componentInformationFromProfile(agent) {
             agent.add(profileName +  ' contains ' + show)
         }
     }else{
-        agent.add(profileName + ' does not exists, to create new profile you can say \'create profile and then profile name\' like create profile country') 
+        agent.add(profileName + ' does not exists, to create new profile you can say \'create profile and then profile name\' like create \'profile country\'.') 
     }
 }
 
@@ -407,16 +407,16 @@ function activateProfileIntent(agent) {
             components: show
             })
             console.log(sessionIdManagement)
-            agent.add(profileName + ' Activated Successfully to know about active components use command \'list of active components\'.')  
+            agent.add(profileName + ' Activated successfully to know about active components use command \'list of active components\'.')  
         }else{
-            agent.add(profileName + ' Profile not defined by you or by Admin.')   
+            agent.add(profileName + ' profile not defined by you (or by the admin).')   
         }  
    }else{ 
         sessionIdManagement.set(agent.session.split('/')[4], {
             components: ['NED-DBpediaSpotlight', 'QueryBuilderSimpleRealNameOfSuperHero', 'SparqlExecuter', 'OpenTapiocaNED', 'BirthDataQueryBuilder', 'WikidataQueryExecuter']
         })
         console.log(sessionIdManagement)
-        agent.add(profileName + ' Activated Successfully to know about active components use command \'list of active components\'.')  
+        agent.add(profileName + ' activated successfully to know about active components use command \'list of active components\'.')  
    }  
 }
 
@@ -440,7 +440,7 @@ async function fallBack(agent) {
     const answer = await getAnswerFromQanary(currentGraphId)
     if (agent.requestSource == "ACTIONS_ON_GOOGLE"){
       conv.ask(answer)
-      conv.ask(new Suggestions("Show rdf graph"));
+      conv.ask(new Suggestions("Show the corresponding RDF graph."));
       agent.add(conv)
     } else { 
         agent.add(answer)    
@@ -478,7 +478,7 @@ function showRDFGraphIntent(agent) {
         conv.ask(new Suggestions("Where was Angela Merkel born?"))
         agent.add(conv)
     } else {
-      conv.ask(`Go to this link to see RDF Visualization - ${vizURL}/${currentGraphId}`)
+      conv.ask(`Use link to see RDF visualization - ${vizURL}/${currentGraphId}`)
       conv.ask(new LinkOutSuggestion({
           name: 'Graph Visualization',
           url: website,
@@ -487,7 +487,7 @@ function showRDFGraphIntent(agent) {
     }
   } else {
     if (!currentGraphId) {
-      agent.add("No information available for this conversation. Please, ask graph based question")    
+      agent.add("No information available for this conversation. Please, ask a data-related question.")    
       const payload =  {
         "richContent": [
           [
@@ -533,7 +533,7 @@ function showRDFGraphIntent(agent) {
 
 function helpIntent(agent) {
         let conv = agent.conv()
-        let output = 'Currently, You can ask me about what is DBpedia? or how to contribute to DBpedia? or you can ask me a question like What is the real name of Batman?'
+        let output = 'Currently, you can ask me something like \'what is DBpedia?\' or \'how to contribute to DBpedia?\' or you can ask me a question like \'What is the real name of Batman?\''
             if(agent.requestSource == "ACTIONS_ON_GOOGLE"){
                 conv.ask(output) 
                 conv.ask(new LinkOutSuggestion({
@@ -550,7 +550,7 @@ function helpIntent(agent) {
                             "options": [
                               {
                                 "link": 'https://jayeshdesai4520.github.io/DBpedia-GSoC-2021/about',
-                                "text": "Check Tutorial",
+                                "text": "Check the tutorial.",
                                 "image": {
                                   "src": {
                                     "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
@@ -573,7 +573,7 @@ async function getAnswerFromQanary(graphId) {
   const endpointUrl = 'https://webengineering.ins.hs-anhalt.de:40159/qanary/query'
   const user = "admin"
   const password = "admin"
-  let answer = "No answer available"
+  let answer = "No answer available."
   const query = `
     PREFIX oa: <http://www.w3.org/ns/openannotation/core/>
     PREFIX qa: <http://www.wdaqua.eu/qa#>
