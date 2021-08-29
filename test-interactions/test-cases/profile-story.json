@@ -1,0 +1,111 @@
+[{
+        "description": "Create a profile with the name 'xyz'.",
+        "input": "create profile xyz",
+        "intent": "Create profile intent",
+        "response_text": "true",
+        "response_rich": "false",
+        "number_of_parameters": 1
+    },
+    {
+        "description": "Add a component to the profile.",
+        "input": "add QAnswerQueryBuilderAndExecutor to profile xyz",
+        "intent": "Activate profile component",
+        "response_text": "true",
+        "response_text_regex": "added",
+        "response_rich": "false",
+        "number_of_parameters": 1
+    },
+    {
+        "description": "The number of components are shown as text. Below, the list of components will be shown as table (rich element).",
+        "input": "show components of profile xyz",
+        "intent": "Show component list Intent",
+        "response_text": "true",
+        "response_text_regex": "1\\s+component",
+        "response_rich": "true",
+        "number_of_parameters": 1
+    },
+    {
+        "description": "The used component should be capable to compute a table of results (rich element).",
+        "input": "What is the capital of Germany?",
+        "intent": "Ask Qanary Intent",
+        "response_text": "false",
+        "response_rich": "true",
+        "number_of_parameters": 0
+    },
+    {
+        "description": "After a successful question there should be a RDF graph available.",
+        "input": "show RDF graph",
+        "intent": "show rdf visualization",
+        "response_text": "true",
+        "response_rich": "true",
+        "number_of_parameters": 0
+    },
+    {
+        "description": "Remove the one component from the profile with the name xyz.",
+        "input": "remove all components from the profile xyz.",
+        "intent": "TODO",
+        "response_text": "true",
+        "response_text_regex": "removed",
+        "response_rich": "false",
+        "number_of_parameters": 1
+    },
+    {
+        "description": "Now, no component is available anymore. Hence, the textual response should mention that no components are in the profile. A rich element is pointing additionally to the tutorial.",
+        "input": "What is the capital of Germany?",
+        "intent": "Ask Qanary Intent",
+        "response_text": "true",
+        "response_text_regex": "no\\s+answer",
+        "response_rich": "true",
+        "number_of_parameters": 0
+    },
+    {
+        "description": "Add a first component to the profile.",
+        "input": "add NED DBpedia-Spotlight to profile xyz",
+        "intent": "Activate profile component",
+        "response_text": "true",
+        "response_rich": "false",
+        "number_of_parameters": 1
+    },
+    {
+        "description": "Add a second component to the profile.",
+        "input": "add QAnswerQueryBuilderAndExecutor to profile xyz",
+        "intent": "Activate profile component",
+        "response_text": "true",
+        "response_rich": "false",
+        "number_of_parameters": 1
+    },
+    {
+        "description": "The configured profile should be capable of answering a question.",
+        "input": "What is the capital of France?",
+        "intent": "Ask Qanary Intent",
+        "response_text": "false",
+        "response_rich": "true",
+        "number_of_parameters": 0
+    },
+    {
+        "description": "After a successful question there should be a RDF graph available.",
+        "input": "show RDF graph",
+        "intent": "show rdf visualization",
+        "response_text": "true",
+        "response_rich": "true",
+        "number_of_parameters": 0
+    },
+    {
+        "description": "The number of components are shown as text. Below, the list of components will be shown as table (rich element).",
+        "input": "show components of profile xyz",
+        "intent": "Show component list Intent",
+        "response_text": "true",
+        "response_text_regex": "2\\s+components",
+        "response_rich": "true",
+        "number_of_parameters": 1
+    },
+    {
+        "description": "Delete the whole profile. The response is just a text informing about that the deletion was done.",
+        "input": "delete profile xyz",
+        "intent": "TODO",
+        "response_text": "true",
+        "response_text_regex": "deleted",
+        "response_rich": "false",
+        "number_of_parameters": 1
+    }
+]

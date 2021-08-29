@@ -1,0 +1,25 @@
+[{
+        "description": "test DBpedia input",
+        "input": "dbpedia",
+        "intent": "DBpedia Info Intent",
+        "response_text": "true",
+        "response_text_regex": ["DBpedia", "crowd-sourced\\s+community"],
+        "response_rich": "true",
+        "number_of_parameters": 0
+    },
+    {
+        "input": "hello",
+        "intent": "Default Welcome Intent",
+        "response_text": "true",
+        "response_rich": "true",
+        "response_text_regex": "DBpedia"
+    },
+    {
+        "description": "Create a profile with the name 'xyz'.",
+        "input": "create profile xyz",
+        "intent": "Create profile intent",
+        "response_text": "true",
+        "response_rich": "false",
+        "number_of_parameters": 1
+    }
+]

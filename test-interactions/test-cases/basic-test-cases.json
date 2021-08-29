@@ -1,0 +1,38 @@
+[{
+        "input": "dbpedia",
+        "intent": "DBpedia Info Intent",
+        "response_text": "true",
+        "response_rich": "true",
+        "number_of_parameters": 0
+    },
+    {
+        "input": "hello",
+        "intent": "Default Welcome Intent",
+        "response_text": "true",
+        "response_rich": "true",
+        "number_of_parameters": 0
+    },
+    {
+        "input": ["help", "what types of questions can you answer?"],
+        "intent": "Help Intent",
+        "response_text": "true",
+        "response_rich": "true",
+        "number_of_parameters": 0
+    },
+    {
+        "input": ["see you", "bye"],
+        "intent": "Exit Intent",
+        "response_text": "true",
+        "response_rich": "false",
+        "number_of_parameters": 0
+    },
+    {
+        "description": "After asking for available components there should be a text response giving the number of available components, followed by the table of components (rich element).",
+        "input": ["show components", "show available components", "what components are available?"],
+        "intent": "Show component list Intent",
+        "response_text": "true",
+        "response_text_regex": "components",
+        "response_rich": "true",
+        "number_of_parameters": 0
+    }
+]
