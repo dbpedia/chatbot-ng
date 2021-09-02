@@ -37,7 +37,7 @@ intentMap.set('Remove component from profile', intent.removeComponentFromProfile
 intentMap.set('Component information from profile', intent.componentInformationFromProfile) 
 intentMap.set('Help Intent', intent.helpIntent)
 intentMap.set('Empty component list', intent.Emptycomponentlist)  
-intentMap.set('Ask Qanary Intent', intent.fallBack)
+intentMap.set('Ask Qanary Intent', intent.AskQanaryIntent)
 intentMap.set('Default Fallback Intent', intent.fallBack)
 
 app.post('/webhook', (request, response) => {    

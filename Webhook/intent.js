@@ -423,7 +423,49 @@ function activateProfileIntent(agent) {
 //End
 
 
-async function fallBack(agent) {
+
+
+function fallBack(agent) {
+        let conv = agent.conv()
+        let output = 'sorry, I didn\'t understand you. Try again? or you can ask for help!'
+            if(agent.requestSource == "ACTIONS_ON_GOOGLE"){
+                conv.ask(output) 
+                conv.ask(new LinkOutSuggestion({
+                name: 'Tutorial',
+                url: 'https://jayeshdesai4520.github.io/DBpedia-GSoC-2021/about',
+            }))
+            agent.add(conv)
+            }else{ 
+                agent.add(output)    
+                const payload =  {
+                      "richContent": [
+                        [
+                          {
+                            "options": [
+                              {
+                                "link": 'https://jayeshdesai4520.github.io/DBpedia-GSoC-2021/about',
+                                "text": "Check the tutorial.",
+                                "image": {
+                                  "src": {
+                                    "rawUrl": "https://i.postimg.cc/hjks7bXp/DBpedia-Logo.png"
+                                  }
+                                }
+                              }
+                            ],
+                            "type": "chips"
+                          }
+                        ]
+                      ]
+                    }
+                agent.add(
+                new Payload(agent.UNSPECIFIED, payload, {rawPayload: true, sendAsMessage: true})
+                )
+            }    
+}
+
+
+
+async function AskQanaryIntent(agent) {
     let conv = agent.conv()  
     lastKbquestion.set(agent.session.split('/')[4], agent.query)
     console.log(lastKbquestion)
@@ -569,6 +611,7 @@ function helpIntent(agent) {
             }    
 }
 
+
 async function getAnswerFromQanary(graphId) {   
   const endpointUrl = 'https://webengineering.ins.hs-anhalt.de:40159/qanary/query'
   const user = "admin"
@@ -598,4 +641,4 @@ async function getAnswerFromQanary(graphId) {
 }
  
 
-module.exports = { welcomeIntent,dbpediaInfoIntent,dbpediaContributeIntent,activeComponentsIntent,resetComponentsListIntent,deactivateComponentIntent,activateComponentIntent,activeQanaryIntent,activateProfileIntent,componentStartwithIntent,showRDFGraphIntent,createProfileIntent,addComponentsToProfile,removeComponentFromProfile,componentInformationFromProfile,helpIntent,Emptycomponentlist,fallBack  };
+module.exports = { welcomeIntent,dbpediaInfoIntent,dbpediaContributeIntent,activeComponentsIntent,resetComponentsListIntent,deactivateComponentIntent,activateComponentIntent,activeQanaryIntent,activateProfileIntent,componentStartwithIntent,showRDFGraphIntent,createProfileIntent,addComponentsToProfile,removeComponentFromProfile,componentInformationFromProfile,helpIntent,Emptycomponentlist,AskQanaryIntent,fallBack  };
