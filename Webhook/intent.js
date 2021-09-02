@@ -596,31 +596,6 @@ async function getAnswerFromQanary(graphId) {
 
   return answer
 }
-
-async function sparqltest(agent) {   
-    const query = `
-        SELECT (COUNT(?s) as ?numTriples)
-        WHERE {
-        ?s ?p ?o .
-        }`;
-    const client = new SparqlClient({
-          endpointUrl: 'https://webengineering.ins.hs-anhalt.de:40159/qanary/query',
-          user: "admin",
-          password: "admin"
-        }) 
-    const stream = await client.query.select(query)
-    stream.on('data', row => {
-      Object.entries(row).forEach(([key, value]) => { 
-        console.log(`${key}: ${value.value} (${value.termType})`)
-      })
-    })
-
-    stream.on('error', err => {
-      console.log(err)
-    })
-    agent.add("hello")
-}
-
  
 
-module.exports = { sparqltest,welcomeIntent,dbpediaInfoIntent,dbpediaContributeIntent,activeComponentsIntent,resetComponentsListIntent,deactivateComponentIntent,activateComponentIntent,activeQanaryIntent,activateProfileIntent,componentStartwithIntent,showRDFGraphIntent,createProfileIntent,addComponentsToProfile,removeComponentFromProfile,componentInformationFromProfile,helpIntent,Emptycomponentlist,fallBack  };
+module.exports = { welcomeIntent,dbpediaInfoIntent,dbpediaContributeIntent,activeComponentsIntent,resetComponentsListIntent,deactivateComponentIntent,activateComponentIntent,activeQanaryIntent,activateProfileIntent,componentStartwithIntent,showRDFGraphIntent,createProfileIntent,addComponentsToProfile,removeComponentFromProfile,componentInformationFromProfile,helpIntent,Emptycomponentlist,fallBack  };
